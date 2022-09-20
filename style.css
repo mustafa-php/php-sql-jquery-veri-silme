@@ -1,0 +1,89 @@
+body {
+  background: #16233a;
+  color: #ffffff;
+}
+
+.form_div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 20rem;
+}
+
+.form_div form {
+  flex: 0 0 auto;
+  width: 60vw;
+  height: max-content;
+  padding: 2rem;
+  padding-bottom: 0;
+  background: #2d4f71;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_div form input,
+.form_div form textarea {
+  background: #1e3e61;
+  color: #ffffff;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  width: 90%;
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  padding: 1rem 2rem;
+}
+
+.form_div form button {
+  background: #1e3e61;
+  color: white;
+  border-radius: 2rem;
+  border: none;
+  padding: 1rem 3rem;
+  margin-bottom: 0.5rem;
+  width: max-content;
+  font-size: 1.5rem;
+}
+
+.paylasim_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paylasim_div .paylasim {
+  height: max-content;
+  width: 60vw;
+  background: #1e2d43;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+}
+
+.paylasim .paylasim_bas{
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.paylasim .paylasim_govde{
+  flex: 0 0 auto;
+  width: 90%;
+}
+
+.paylasim .paylasim_sil{
+  flex: 0 0 auto;
+  width: 10%;
+}
+
+.sil{
+  background: transparent;
+  color: red;
+  border: none;
+}
